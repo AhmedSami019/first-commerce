@@ -1,5 +1,5 @@
 .container{
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .orange-bg{
     background-color: #feeae9;
@@ -18,4 +18,34 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.cat1{
+    background-image: linear-gradient(to right, #ff930f 0%, #fff95b 100%);
+    color: #ffffff;
+}
+.cat2{
+    background-image: linear-gradient(to bottom, #ffc8c8 0%, #ff5858 100%);
+    color: #ffffff;
+}
+.cat3{
+    background-image: linear-gradient(to right, #0061ff 0%, #60efff 100%);
+    color: #ffffff;
+}
+.catagory img{
+    width: 100px;
+}
+.card{
+    border: none;
+    box-shadow: 3px 3px 10px rgb(141, 160, 167);
+}
+.card-footer{
+    background-color: white;
+    border: none;
+}
+button{
+    margin-bottom: 20px;
 }
